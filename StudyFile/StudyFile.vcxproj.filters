@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StudyFile.cpp">
+    <ClCompile Include="Newtons.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

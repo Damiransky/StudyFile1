@@ -19,6 +19,13 @@ int main(){
 	newtons = tons * NEWTON_IN_TON;
 	// Give value
 	cout << "Перевод в Ньютоны составил: " << newtons << endl;
+	cout << "Укажите количество ньютонов:";
+	// Waiting for response 
+	cin >> newtons;
+	// Сalculate
+	tons = (double) newtons / NEWTON_IN_TON;
+	// Give value
+	cout << "Перевод в тонны составил: " << tons << endl;
 	system("pause > nul");
 	return newtons;
 }
